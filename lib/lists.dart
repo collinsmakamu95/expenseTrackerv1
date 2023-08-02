@@ -59,7 +59,7 @@ List upcomingTransactions = [
     ),
     "-€89.32",
     DateTime(2022, 10, 24),
-    "Makeup"
+    "Grooming"
   ],
   [
     const Icon(
@@ -122,6 +122,6 @@ List pastTransactions = [
     ),
     "-€250.12",
     DateTime(2023, 4, 9),
-    "Beauty"
+    "Grooming"
   ],
 ];
