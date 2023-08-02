@@ -32,7 +32,7 @@ class _HomeInterface extends State<HomeInterface> {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         fit: BoxFit.fill,
-                        image: AssetImage('assets/background.png')),),
+                        image: AssetImage('assets/background_one.png')),),
                 child: Column(children: [
                   Padding(
                       padding: EdgeInsets.fromLTRB(30, 60, 20, 20),
@@ -42,7 +42,7 @@ class _HomeInterface extends State<HomeInterface> {
                         children: [
                           CircleAvatar(
                             minRadius: 25,
-                            backgroundImage: AssetImage('assets/background.png'),
+                            backgroundImage: AssetImage('assets/cmm6.png'),
                           ),
                           ElevatedButton(
                             onPressed: (() => {}),

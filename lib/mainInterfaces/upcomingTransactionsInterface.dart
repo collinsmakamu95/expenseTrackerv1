@@ -47,13 +47,13 @@ class _PastTransactionsListListState extends State<PastTransactionsList> {
             width: MediaQuery.of(context).size.width * 0.9,
             child: ListTile(
               shape: RoundedRectangleBorder(
-                side: const BorderSide(color: Colors.greenAccent, width: 0.25),
+                side: const BorderSide(color: Colors.lightBlueAccent, width: 0.25),
                 borderRadius: BorderRadius.circular(10),
               ),
               leading: upcomingTransactions[index][0],
               title: Text(
                 upcomingTransactions[index][1],
-                style: const TextStyle(color: Colors.greenAccent),
+                style: const TextStyle(color: Colors.lightBlueAccent),
               ),
               subtitle: Text(upcomingTransactions[index][3]),
               trailing: Text(DateFormat.MMMMEEEEd()
